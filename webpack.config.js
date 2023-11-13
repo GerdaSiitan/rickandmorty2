@@ -24,7 +24,7 @@ for(let view of views){
         template: './src/views/' + view.name,
         templateParameters: {
             fullname: 'Gerda Siitan',
-            items: ['piim', 'sai', 'leib', 'viin'],
+            items: ['kapsas', 'hakkliha', 'kartul', 'jägermeister'],
             chars: data.results
         }
     }));
