@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 
 
-const response = await fetch("https://rickandmortyapi.com/api/character?page=34");
+const response = await fetch("https://rickandmortyapi.com/api/character?page=20 nb");
 const data = await response.json();
 
 
@@ -23,7 +23,7 @@ for(let view of views){
         filename: path.parse(view.name).name + '.html',
         template: './src/views/' + view.name,
         templateParameters: {
-            fullname: 'Magnus Roland Raadla',
+            fullname: 'Gerda Siitan',
             items: ['piim', 'sai', 'leib', 'viin'],
             chars: data.results
         }
