@@ -8,7 +8,7 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development",
-    "deploy": "npm run build && surge ./dist rickandmortything.surge.sh"
+    "deploy": "npm run build && surge ./dist gerda-siitan.surge.sh"
   },
   "keywords": [],
   "author": "",

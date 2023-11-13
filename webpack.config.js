@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 
 
-const response = await fetch("https://rickandmortyapi.com/api/character?page=20 nb");
+const response = await fetch("https://rickandmortyapi.com/api/character?page=20nb");
 const data = await response.json();
 
 
