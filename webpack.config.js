@@ -40,7 +40,7 @@ export default {
         static: {
             directory: path.resolve(__dirname, 'public')
         },
-        port: 9000,
+        port: 9090,
         compress: true,
     },
     module: {
